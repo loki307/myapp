@@ -36,6 +36,16 @@ A simple Python Flask web application containerized with Docker and deployed usi
 - Dockerized Python Flask application
 - Automated CI/CD pipeline
 - Production ready containerization
+- ## 📸 Screenshots
+
+### App Running
+![App](screenshots/app.png)
+
+### Kubernetes Pods
+![Pods](screenshots/pods.png)
+
+### GitHub Actions
+![Actions](screenshots/actions.png)
 
 ## 👨‍💻 Aws Devops Engineer 
 **Logesh** - Fresher DevOps Engineer
