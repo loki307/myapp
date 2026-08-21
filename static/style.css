@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #2a2a3d;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #a0a0c0;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.form-box {
+    background: #33334d;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.form-box h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #7fdbff;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    flex: 1;
+    min-width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #1e1e2f;
+    color: #fff;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 2px solid #7fdbff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #7fdbff;
+    color: #1e1e2f;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #5fc4ec;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #3f3f5f;
+}
+
+th {
+    background: #33334d;
+    color: #7fdbff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background: #33334d;
+}
+
+.delete-btn {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}
+.edit-btn {
+    color: #7fdbff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.edit-btn:hover {
+    text-decoration: underline;
+}
